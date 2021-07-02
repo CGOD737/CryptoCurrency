@@ -1,4 +1,8 @@
 //Compiler Includes
+
+#ifndef Blockchain_h
+#define Blockchain_h
+
 #include <string>
 #include <iostream>
 #include <stdlib.h>
@@ -17,11 +21,13 @@ class BlockChain {
     public:
         //Public Chain
         vector<Block> chain;
-
         //Constructor
         BlockChain();
 
         //Public Functions
         void addBlock(Transaction data);
-        void isChainValid();
+        bool isChainValid();
+
+        Block *getLatestBlock();
 };
+#endif

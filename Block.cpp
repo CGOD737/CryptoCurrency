@@ -1,10 +1,9 @@
+#include <stdio.h>
 #include <string>
-#include <iostream>
-#include <stdlib.h>
-#include <iterator>
-#include <math.h>
 
 #include "Block.h"
+#include "transaction.h"
+
 
 using namespace std;
 

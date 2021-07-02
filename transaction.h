@@ -1,5 +1,8 @@
 //defines the structure of a Transaction
 
+#ifndef transaction_h
+#define transaction_h
+
 #include <ctime>
 #include <vector>
 #include <string>
@@ -12,3 +15,4 @@ struct Transaction {
     string reciever; //reciever key
     time_t time; //timestamp of the transaction
 };
+#endif

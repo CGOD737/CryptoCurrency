@@ -1,3 +1,6 @@
+#ifndef Block_h
+#define Block_h
+
 #include <string>
 #include <iostream>
 #include <stdlib.h>
@@ -32,3 +35,4 @@ class Block {
         //Hash Validation
         bool isBlockValid();
 };
+#endif
